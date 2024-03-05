@@ -30,6 +30,7 @@ export default defineConfig(({mode, command})=>{
       Components({
         resolvers: [ElementPlusResolver()]
       })
-    ]
+    ],
+    assetsInclude: ['**/*.hdr','**/*.glb']
   }
 })

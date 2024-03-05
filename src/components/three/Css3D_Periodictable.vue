@@ -186,7 +186,7 @@ function init(){
   // sphere ?????
   const vector = new THREE.Vector3()
   for(let i = 0, l = objects.length;i<objects.length;i++){
-    const phi = Math.acos( -1 +(2*i)/l )
+    const phi = Math.acos( -1 +(2*i)/l ) // -1 - 1
     const theta = Math.sqrt(l * Math.PI) * phi
     const object = new THREE.Object3D()
     object.position.setFromSphericalCoords(800, phi, theta)
@@ -211,9 +211,9 @@ function init(){
   // grid
   for(let i = 0;i<objects.length;i++){
     const object = new THREE.Object3D()
-    object.position.x = ((i%5) * 400) - 800
-    object.position.y = (-(Math.floor(i/5)%5)*400) +800;
-    object.position.z = (Math.floor(i/25))* 1000 - 2000;
+    object.position.x = ((i%5) * 300) - 600
+    object.position.y = (-(Math.floor(i/5)%5)*300) + 600;
+    object.position.z = (Math.floor(i/25))* 600 - 2000;
     targets.grid.push(object)
   }
 
@@ -252,7 +252,7 @@ function init(){
 }
 
 function transform(targets, duration){
-  TWEEN.removeAll()
+  // TWEEN.removeAll()
   for(let i =0;i<objects.length;i++){
     const object = objects[i]
     const target = targets[i]
