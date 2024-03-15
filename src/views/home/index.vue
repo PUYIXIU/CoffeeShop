@@ -34,9 +34,16 @@ const linkList = ref([
             router:'../../components/three/Sprite_Matrix.vue'
           },
         ]
+      },
+      {
+        linkName:'旋转热点图',
+        router:'../../components/three/Css3D_RotateWord.vue'
       }
     ]
   },
+  {
+    linkName:'Points'
+  }
 ])
 
 function jumpToCanvas(item){
