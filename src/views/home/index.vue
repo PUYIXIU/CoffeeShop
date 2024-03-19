@@ -42,7 +42,13 @@ const linkList = ref([
     ]
   },
   {
-    linkName:'Points'
+    linkName:'GSAP',
+    children:[
+      {
+        linkName:'GSAP 基础',
+        router:'../../components/GSAP/BaseDemo.vue',
+      }
+    ]
   }
 ])
 
