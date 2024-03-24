@@ -9,35 +9,39 @@ const linkList = ref([
     children:[
       {
         linkName:'元素周期表',
-        router:'../../components/three/Css3D_Periodictable.vue',
+        router:'../../components/three/CSS3D/Css3D_Periodictable.vue',
         children:[
           {
             linkName:'星际之门版',
-            router:'../../components/three/Vector3_Transform.vue'
+            router:'../../components/three/CSS3D/Vector3_Transform.vue'
           },
           {
             linkName:'魔方版',
-            router:'../../components/three/Vector3_Cuboid.vue'
+            router:'../../components/three/CSS3D/Vector3_Cuboid.vue'
           }
         ]
       },
       {
         linkName: 'Sprite-雪碧粒子',
-        router:'../../components/three/Css3D_Sprite.vue',
+        router:'../../components/three/CSS3D/Css3D_Sprite.vue',
         children:[
           {
             linkName:'Sprite-CSS元素',
-            router:'../../components/three/Sprite_CSSDom.vue'
+            router:'../../components/three/CSS3D/Sprite_CSSDom.vue'
           },
           {
             linkName:'Sprite-矩阵',
-            router:'../../components/three/Sprite_Matrix.vue'
+            router:'../../components/three/CSS3D/Sprite_Matrix.vue'
           },
         ]
       },
       {
         linkName:'旋转热点图',
-        router:'../../components/three/Css3D_RotateWord.vue'
+        router:'../../components/three/CSS3D/Css3D_RotateWord.vue'
+      },
+      {
+        linkName: 'Css3D-YouTube',
+        router:'../../components/three/CSS3D/Css3D_YouTube.vue'
       }
     ]
   },

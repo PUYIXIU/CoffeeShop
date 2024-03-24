@@ -4,7 +4,6 @@ import * as THREE from 'three'
 import {TrackballControls} from "three/addons/controls/TrackballControls.js";
 import {OrbitControls} from "three/addons/controls/OrbitControls.js";
 import TWEEN from "three/addons/libs/tween.module.js";
-// import {CSS3DSprite,CSS3DObject,CSS3DRenderer} from "three/addons/renderers/CSS3DRenderer.js";
 import {CSS2DObject,CSS2DRenderer} from "three/addons/renderers/CSS2DRenderer.js";
 import circleTexture from '@/assets/img/circle.png'
 import {EffectComposer} from "three/addons/postprocessing/EffectComposer.js";
@@ -13,7 +12,6 @@ import {OutputPass} from "three/addons/postprocessing/OutputPass.js";
 import {UnrealBloomPass} from "three/addons/postprocessing/UnrealBloomPass.js";
 import { SSAARenderPass } from 'three/addons/postprocessing/SSAARenderPass.js';
 
-import {GUI} from 'dat.gui'
 
 let scene, camera, renderer, cssRenderer
 let trackballControls, orbitControls
