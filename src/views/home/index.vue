@@ -42,6 +42,16 @@ const linkList = ref([
     ]
   },
   {
+    linkName:'Camera',
+    children:[
+        //https://github.com/mrdoob/three.js/blob/master/examples/misc_lookat.html
+      {
+        linkName:'LookAt',
+        router:'../../components/three/Camera_LookAt.vue'
+      }
+    ]
+  },
+  {
     linkName:'GSAP',
     children:[
       {
