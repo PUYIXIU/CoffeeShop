@@ -38,16 +38,17 @@ const linkList = ref([
       {
         linkName:'旋转热点图',
         router:'../../components/three/Css3D_RotateWord.vue'
-      }
+      },
+
     ]
   },
   {
-    linkName:'Camera',
+    linkName:"其它",
     children:[
-        //https://github.com/mrdoob/three.js/blob/master/examples/misc_lookat.html
       {
-        linkName:'LookAt',
-        router:'../../components/three/Camera_LookAt.vue'
+        // https://codepen.io/YusukeNakaya/pen/xxNdPoM
+        linkName:"旋转几何光影",
+        router:'../../components/three/Other_WebGLBall.vue'
       }
     ]
   },

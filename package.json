@@ -14,7 +14,7 @@
     "dat.gui": "^0.7.9",
     "gsap": "^3.12.4",
     "pinia": "^2.1.7",
-    "three": "^0.160.0",
+    "three": "^0.168.0",
     "three-custom-shader-material": "^5.4.0",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0",
