@@ -43,6 +43,21 @@ const linkList = ref([
     ]
   },
   {
+    linkName:"相机Camera",
+    children:[
+      {
+        linkName:"相机阵列",
+        router:'../../components/three/Camera/Camera_array.vue',
+        children:[
+          {
+            linkName:"几何变幻图形",
+            router:'../../components/three/Camera/Camera_array_shape_change.vue'
+          }
+        ]
+      }
+    ]
+  },
+  {
     linkName:"其它",
     children:[
       {
