@@ -5,6 +5,15 @@ const {proxy} = getCurrentInstance()
 
 const linkList = ref([
   {
+    linkName:'Scene 场景',
+    children:[
+      {
+        linkName:"场景切换",
+        router:'../../components/three/Scene/SwitchScene.vue'
+      }
+    ]
+  },
+  {
     linkName:'CSS3D',
     children:[
       {
@@ -43,7 +52,7 @@ const linkList = ref([
     ]
   },
   {
-    linkName:"相机Camera",
+    linkName:"Camera 相机",
     children:[
       {
         linkName:"相机阵列",
